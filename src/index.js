@@ -7,7 +7,7 @@ import {Theme} from '@twilio-paste/core/theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Theme.Provider theme="evergreen" style={{ height: '100%', width: '100%' }}>
+    <Theme.Provider theme="evergreen">
       <App />
     </Theme.Provider>
   </React.StrictMode>,

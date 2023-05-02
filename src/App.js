@@ -35,12 +35,12 @@ const htmlIpsum = `
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{display: 'flex', flexDirection: 'column', height: '100vh', margin: '0'}}>
       <p>
         Test component:
       </p>
       {/* <HelloWorld /> */}
-      <div>
+      <div style={{flexGrow: '1'}}>
         <EditorToggle initialHtml={htmlIpsum} />
       </div>
     </div>
