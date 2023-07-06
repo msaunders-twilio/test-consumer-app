@@ -1,7 +1,6 @@
 import React from "react";
 import './App.css';
-// import { HelloWorld } from "@segment/email-editors";
-import { SideBySideEditor } from "@segment/email-editors";
+import { AdvancedHTMLEditor } from "@segment/email-editors";
 
 const htmlIpsum = `
 <h1>HTML Ipsum Presents</h1>
@@ -39,9 +38,8 @@ function App() {
       <p>
         Test component:
       </p>
-      {/* <HelloWorld /> */}
       <div style={{flexGrow: '1'}}>
-        <SideBySideEditor initialHtml={htmlIpsum} />
+        <AdvancedHTMLEditor initialHtml={htmlIpsum} />
       </div>
     </div>
   );
